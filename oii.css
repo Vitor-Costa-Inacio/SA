@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+    background-color: #ffffff;
 }
 
 .container {
@@ -8,7 +8,7 @@ body {
     height: 820px;
     margin: auto;
     padding: 20px;
-    background-color: black;
+    background-color: #ffffff;
 }
 
 .mapa img {
@@ -26,7 +26,7 @@ body {
     border-radius: 8px;
     width: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background-color: red;
+    background-color: #ffffff;
 }
 
 .alertas-prioritarios {
@@ -35,7 +35,8 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     width: 50%;
-    background-color: #EAEAEA;
+    background-color: #ffffff;
+    color: #004A98;
 }
 
 .desempenho {
@@ -43,7 +44,7 @@ body {
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background-color: #EAEAEA;
+    background-color: #ffffff;
 }
 
 .atividades-recentes {
@@ -51,7 +52,8 @@ body {
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background-color: #EAEAEA;
+    background-color: #ffffff;
+    color: #004A98;
 }
 
 h2 {
@@ -62,19 +64,33 @@ h2 {
 .atividades-recentes h2 {
     margin-top: 0;
     font-size: 1.2em;
-    color: #333;
+    color: #004A98;
 }
 
 .desempenho h2 {
     margin-top: 0;
     font-size: 1.2em;
-    color: #333;
+    color: #004A98;
 }
 
 .alertas-prioritarios h2 {
     margin-top: 0;
     font-size: 1.2em;
-    color: #333;
+    color: #004A98;
+}
+
+.alertas-prioritarios h3 {
+    margin-top: 0;
+    color: #004A98;
+}
+
+.flex, .flex2, .flex3, .flex4, .flex5, .flex6 {
+    align-items: center;
+}
+
+svg {
+    display: block;
+    margin: auto;
 }
 
 .flex {
@@ -87,12 +103,73 @@ h2 {
     width: 50%;
     height: auto;
     flex: 1;
+    align-items: center;
 }
 
 .flex2 h3 {
     font-size: 20px;
 }
 
+.flex3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.flex3 p {
+    margin: 0;
+}
+
+.flexalerta {
+    margin: 0;
+}
+
+.flex4 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.flex4 p {
+    margin: 0;
+}
+
+.flexrota {
+    margin: 0;
+}
+
+.flex5 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.flex5 p {
+    margin: 0;
+}
+
+.flexmanutencao {
+    margin: 0;
+}
+
+.flex6 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.flex6 p {
+    margin: 0;
+}
+
+.flexprioritarios h4 {
+    margin: auto;
+    align-items: center;
+}
+
+.flexprioritarios {
+    margin: 0;
+}
 .ativa {
     background-color: #004A98;
     border-top-left-radius: 8px;
@@ -100,6 +177,7 @@ h2 {
     width: 50%;
     text-align: center;
     padding: 10px;
+    color: #ffffff
 }
 
 .inativa {
@@ -109,4 +187,5 @@ h2 {
     width: 50%;
     text-align: center;
     padding: 10px;
+    color: #ffffff
 }
