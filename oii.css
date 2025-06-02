@@ -11,6 +11,12 @@ body {
     background-color: #ffffff;
 }
 
+.mapa {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
 .mapa img {
     width: 100%;
     height: auto;
@@ -84,7 +90,12 @@ h2 {
     color: #004A98;
 }
 
-.flex, .flex2, .flex3, .flex4, .flex5, .flex6 {
+.flex,
+.flex2,
+.flex3,
+.flex4,
+.flex5,
+.flex6 {
     align-items: center;
 }
 
@@ -170,6 +181,7 @@ svg {
 .flexprioritarios {
     margin: 0;
 }
+
 .ativa {
     background-color: #004A98;
     border-top-left-radius: 8px;
